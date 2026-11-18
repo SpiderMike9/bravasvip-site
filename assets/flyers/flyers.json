@@ -2,7 +2,7 @@
   "_help": "Add each event once here. Flyer events need a local src image, title, date, startsAt, endsAt, time, lead, alt and reserve. Both the player and calendar update from this list; endsAt must include the America/New_York UTC offset (-05:00 winter, -04:00 summer). Events without src appear only in the calendar.",
   "flyers": [
     {
-      "src": "/assets/flyers/vip-saturday-2026-11-14.png",
+      "src": "/assets/flyers/vip-saturday-2026-11-14.webp",
       "alt": "V.I.P. Saturday featuring DJ Ike and DJ Juice, November 14, 2026, 8 PM to 1 AM at BRAVAS Bar & Lounge, 113-A Goldsboro St, Wilson NC 27893.",
       "date": "2026-11-14",
       "endsAt": "2026-11-15T01:00:00-05:00",
@@ -33,7 +33,7 @@
       "time": "8 PM–1 AM"
     },
     {
-      "src": "/assets/flyers/sunday-funday-2026-11-15.png",
+      "src": "/assets/flyers/sunday-funday-2026-11-15.webp",
       "alt": "Sunday Funday Brunch, November 15, 2026, 3 PM–10 PM. DJ Juice and Overly Loaded food truck at BRAVAS, 113-A Goldsboro St, Wilson NC 27893.",
       "date": "2026-11-15",
       "endsAt": "2026-11-15T22:00:00-05:00",

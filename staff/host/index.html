@@ -1,84 +1,11 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#07070a">
-<title>BRAVAS Host Board</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%2307070a'/%3E%3Ctext x='50' y='71' font-size='64' text-anchor='middle' fill='%23d8b06b' font-family='Georgia'%3EB%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="/staff/staff.css">
-</head>
-<body>
-<p id="gate">Checking your sign-in…</p>
-
-<div id="board" class="board" hidden>
-  <div class="topbar">
-    <a class="brand" href="/staff/">BRAVAS</a>
-    <div class="top-right">
-      <span id="live" class="live">Connecting</span>
-      <span class="who" id="who"></span>
-      <a class="btn small-btn" href="/staff/">Staff home</a>
-      <button class="btn small-btn" type="button" data-signout>Sign out</button>
-    </div>
-  </div>
-
-  <div class="layout">
-    <aside id="door" class="door" aria-label="Door count">
-      <h2>In the room</h2>
-      <div class="count-line"><span id="count" aria-live="polite">–</span><span class="of">/ 40</span></div>
-      <p id="door-note"></p>
-      <div class="count-btns">
-        <button id="minus" class="btn" type="button" aria-label="One person out">−</button>
-        <button id="plus" class="btn btn-gold" type="button" aria-label="One person in">+</button>
-      </div>
-      <button id="exception" class="btn btn-red" type="button">Count doesn't match the room</button>
-      <p id="alert-status" class="status"></p>
-      <label class="sound-row"><input id="sound" type="checkbox" checked> Chime when a table hits 15 minutes</label>
-    </aside>
-
-    <div>
-      <p id="summary"></p>
-      <div id="floor"></div>
-    </div>
-  </div>
-</div>
-
-<dialog id="sheet" aria-labelledby="sheet-title">
-  <h3 id="sheet-title">Table</h3>
-
-  <form id="seat-form" method="dialog">
-    <label for="party">Party name</label>
-    <input id="party" type="text" maxlength="40" autocomplete="off" placeholder="Last name">
-    <label for="size">Party size</label>
-    <div class="stepper">
-      <button id="size-minus" class="btn" type="button" aria-label="One fewer">−</button>
-      <input id="size" type="number" min="1" max="40" value="2" inputmode="numeric">
-      <button id="size-plus" class="btn" type="button" aria-label="One more">+</button>
-    </div>
-    <label>Seating</label>
-    <div class="seg" role="radiogroup">
-      <input type="radio" name="kind" id="kind-guest" checked><label for="kind-guest">Guest, 2 hours</label>
-      <input type="radio" name="kind" id="kind-member"><label for="kind-member">Member</label>
-    </div>
-    <div class="sheet-actions">
-      <button class="btn btn-gold" type="submit">Seat party</button>
-      <button class="btn" type="button" data-close>Cancel</button>
-    </div>
-  </form>
-
-  <div id="seated" hidden>
-    <p id="seated-who"></p>
-    <p id="seated-line"></p>
-    <div class="sheet-actions">
-      <button id="extend" class="btn btn-gold" type="button">Extend 1 hour</button>
-      <button id="clear" class="btn btn-red" type="button">Clear table</button>
-      <button class="btn" type="button" data-close>Close</button>
-    </div>
-  </div>
-</dialog>
-
-<div id="toast" class="toast" role="status" hidden></div>
-<script type="module" src="/staff/js/host.js"></script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Redirecting…</title>
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="0; url=https://bravas-host-board.web.app/">
+<link rel="canonical" href="https://bravas-host-board.web.app/">
+<script>location.replace("https://bravas-host-board.web.app/");</script>
+</head><body style="background:#0b0b0b;color:#eee;font-family:sans-serif;text-align:center;padding:3rem">
+<p>Taking you there… <a href="https://bravas-host-board.web.app/" style="color:#d4af37">Tap here if nothing happens</a></p>
+</body></html>
