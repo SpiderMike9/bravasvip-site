@@ -1,0 +1,126 @@
+{
+  "_help": "Add each event once here. Flyer events need a local src image, title, date, startsAt, endsAt, time, lead, alt and reserve. Both the player and calendar update from this list; endsAt must include the America/New_York UTC offset (-05:00 winter, -04:00 summer). Events without src appear only in the calendar.",
+  "flyers": [
+    {
+      "src": "/assets/flyers/vip-saturday-2026-11-14.png",
+      "alt": "V.I.P. Saturday featuring DJ Ike and DJ Juice, November 14, 2026, 8 PM to 1 AM at BRAVAS Bar & Lounge, 113-A Goldsboro St, Wilson NC 27893.",
+      "date": "2026-11-14",
+      "endsAt": "2026-11-15T01:00:00-05:00",
+      "title": "V.I.P. Saturday featuring DJ Ike & DJ Juice",
+      "pill": "V.I.P. Saturday · DJ Ike & DJ Juice · 8 PM–1 AM",
+      "lead": "Two of the hottest DJs in NC, in one building. Join DJ Ike & DJ Juice at BRAVAS on Saturday, November 14, 8 PM–1 AM.",
+      "rows": [
+        [
+          "Time",
+          "8:00 PM – 1:00 AM"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ],
+        [
+          "Music",
+          "DJ Ike & DJ Juice"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ],
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-14",
+      "id": "vip-saturday-2026-11-14",
+      "startsAt": "2026-11-14T20:00:00-05:00",
+      "time": "8 PM–1 AM"
+    },
+    {
+      "src": "/assets/flyers/sunday-funday-2026-11-15.png",
+      "alt": "Sunday Funday Brunch, November 15, 2026, 3 PM–10 PM. DJ Juice and Overly Loaded food truck at BRAVAS, 113-A Goldsboro St, Wilson NC 27893.",
+      "date": "2026-11-15",
+      "endsAt": "2026-11-15T22:00:00-05:00",
+      "title": "Sunday Funday Brunch",
+      "lead": "Overly Loaded food truck on site with loaded fries, wings and loaded eggs. Music by DJ Juice. Sunday, November 15, 3 PM–10 PM.",
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-15",
+      "id": "sunday-funday-2026-11-15",
+      "startsAt": "2026-11-15T15:00:00-05:00",
+      "time": "3 PM–10 PM",
+      "rows": [
+        [
+          "Time",
+          "3 PM–10 PM"
+        ],
+        [
+          "Music",
+          "DJ Juice"
+        ],
+        [
+          "Food",
+          "Overly Loaded food truck"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ]
+      ]
+    },
+    {
+      "src": "/assets/flyers/throwback-2026-11-12.jpg",
+      "alt": "Flyer: The BRAVAS Bar and Lounge presents Throwback Thursdayz, celebrating Seyy's birthday. Thursday 6 PM to 12 AM. Food will be provided while it lasts. 113 Goldsboro St., Wilson, NC.",
+      "date": "2026-11-12",
+      "title": "Throwback Thursdayz: Seyy's Birthday",
+      "pill": "Throwback Thursdayz · Seyy's Birthday · 6 PM",
+      "lead": "Come turn up and celebrate Seyy. Food will be provided while it lasts.",
+      "rows": [
+        [
+          "Time",
+          "6:00 PM – 12:00 AM"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ],
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-12"
+    },
+    {
+      "id": "spoken-word-2026-11-18",
+      "date": "2026-11-18",
+      "startsAt": "2026-11-18T19:00:00-05:00",
+      "endsAt": "2026-11-19T00:00:00-05:00",
+      "time": "7 PM–midnight",
+      "title": "Spoken Word + Comedy",
+      "lead": "Spoken word, 7–9 PM · Comedy, 10 PM–midnight.",
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-18"
+    },
+    {
+      "src": "/assets/flyers/founders-day-2026-11-17.jpg",
+      "alt": "Founders Day with the Ques: The Ques are coming. Come out and celebrate Founders Day with them. Tuesday, November 17, 2026, 6 PM to 10 PM, hosted by DJ Juice at BRAVAS Lounge, Wilson NC.",
+      "date": "2026-11-17",
+      "startsAt": "2026-11-17T18:00:00-05:00",
+      "endsAt": "2026-11-17T22:00:00-05:00",
+      "time": "6 PM–10 PM",
+      "title": "Founders Day with the Ques",
+      "pill": "Founders Day · Hosted by DJ Juice · 6 PM–10 PM",
+      "lead": "The Ques are coming. Come out and celebrate Founders Day with them. Hosted by DJ Juice, Tuesday, November 17, 6 PM–10 PM.",
+      "rows": [
+        [
+          "Time",
+          "6:00 PM – 10:00 PM"
+        ],
+        [
+          "Host",
+          "DJ Juice"
+        ],
+        [
+          "Where",
+          "BRAVAS Lounge, Wilson"
+        ]
+      ],
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-17",
+      "id": "founders-day-2026-11-17"
+    }
+  ]
+}
