@@ -86,13 +86,30 @@
       "reserve": "https://tally.so/r/RWdAv4?date=2026-11-12"
     },
     {
+      "src": "/assets/flyers/spoken-word-2026-11-18.webp",
+      "alt": "BRAVAS Bar & Lounge presents Spoken Word Poetry with Open Mic Night, featuring guest speakers Chris Coleman and Princess. Wednesday, November 18, 2026, 8 PM to 11 PM, doors open at 7 PM, at 113-A Goldsboro St, Wilson NC. Express, inspire, connect.",
       "id": "spoken-word-2026-11-18",
       "date": "2026-11-18",
-      "startsAt": "2026-11-18T19:00:00-05:00",
-      "endsAt": "2026-11-19T00:00:00-05:00",
-      "time": "7 PM–midnight",
-      "title": "Spoken Word + Comedy",
-      "lead": "Spoken word, 7–9 PM · Comedy, 10 PM–midnight.",
+      "startsAt": "2026-11-18T20:00:00-05:00",
+      "endsAt": "2026-11-18T23:00:00-05:00",
+      "time": "8 PM–11 PM",
+      "title": "Spoken Word Poetry + Open Mic Night",
+      "pill": "Spoken Word Poetry · Open Mic Night · 8 PM–11 PM",
+      "lead": "Spoken word poetry with open mic night, featuring guest speakers Chris Coleman and Princess. Doors open at 7 PM. Express, inspire, connect.",
+      "rows": [
+        [
+          "Time",
+          "8:00 PM – 11:00 PM (doors 7 PM)"
+        ],
+        [
+          "Featuring",
+          "Chris Coleman & Princess"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ]
+      ],
       "reserve": "https://tally.so/r/RWdAv4?date=2026-11-18"
     },
     {
