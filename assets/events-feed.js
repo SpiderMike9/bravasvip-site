@@ -64,33 +64,31 @@
   }
  }
 
- function statusFor(day,i,snap){
-  if(!day.open)return {cls:'is-closed',text:'Closed'};
-  if(i===0)return snap.published?{cls:'is-live',text:'Today · Featured'}:{cls:'is-pending',text:'Today · Flyer posts at '+S.timeLabel(day.publishAt)};
-  if(i===1)return {cls:'',text:'Tomorrow'};
-  return {cls:'',text:day.source==='special'?'Special event':'Upcoming'};
+ /* Dated event list (unchanged behavior): upcoming dated entries from flyers.json.
+    data-calendar-mode="without-flyers" (homepage) lists only entries without a flyer. */
+ const dayName=new Intl.DateTimeFormat('en-US',{timeZone:'UTC',weekday:'long'});
+ function upcoming(snap){
+  return Object.values(sched.byDate).filter(f=>f.closed!==true&&(f.endsAt&&Number.isFinite(Date.parse(f.endsAt))?Date.parse(f.endsAt)>Date.now():f.date>=snap.now.date))
+   .sort((x,y)=>(x.startsAt||x.date).localeCompare(y.startsAt||y.date))
+   .map(f=>({f,day:S.resolveDay(sched,f.date)}));
  }
  function renderCalendar(root,snap){
-  const n=Math.max(1,Math.min(28,parseInt(root.dataset.calendarDays,10)||14));
-  const days=snap.days.slice(0,n);
-  const sig=JSON.stringify([days,snap.published,[...failed]]);if(root._sig===sig)return;root._sig=sig;
+  const all=upcoming(snap);
+  const items=root.dataset.calendarMode==='without-flyers'?all.filter(x=>!x.day.src):all;
+  const sig=JSON.stringify([items.map(x=>x.day),[...failed]]);if(root._sig===sig)return;root._sig=sig;
   const frag=document.createDocumentFragment();
-  days.forEach((day,i)=>{
-   const st=statusFor(day,i,snap);
-   const card=el('article','event-card calendar-event'+(i===0?' is-today':'')+(day.open?'':' is-closed'));
-   card.dataset.date=day.date;card.dataset.source=day.source;
+  items.forEach(({day})=>{
+   const card=el('article','event-card calendar-event');card.dataset.date=day.date;
    const d=asDate(day.date),date=el('div','date');
-   date.append(el('span','',day.dayName),el('strong','',String(d.getUTCDate())),el('span','',monthName.format(d)));
-   const copy=el('div');
-   copy.append(el('p','calendar-status '+st.cls,st.text),el('h3','',day.title));
-   if(day.open){
-    if(day.time)copy.append(el('p','calendar-time',day.time));
-    if(day.lead)copy.append(el('p','',day.lead));
-    const a=el('a','textlink','Reserve your seat ↗');a.href=day.reserve;copy.append(a);
-    if(i===0&&snap.published&&hasFlyer(day)){const v=el('a','textlink calendar-flyer-link','View flyer ↗');v.href=day.src;v.target='_blank';v.rel='noopener';copy.append(v);}
-   }else copy.append(el('p','',day.lead||(day.source==='closure'?'BRAVAS is closed this day.':'BRAVAS is closed Tuesdays.')));
+   date.append(el('span','',dayName.format(d)),el('strong','',String(d.getUTCDate())),el('span','',monthName.format(d)));
+   const copy=el('div');copy.append(el('h3','',day.title));
+   if(day.time)copy.append(el('p','calendar-time',day.time));
+   copy.append(el('p','',day.lead||''));
+   const a=el('a','textlink','Reserve your seat ↗');a.href=day.reserve;copy.append(a);
+   if(hasFlyer(day)){const v=el('a','textlink calendar-flyer-link','View flyer ↗');v.href=day.src;v.target='_blank';v.rel='noopener';copy.append(v);}
    card.append(date,copy);frag.append(card);
   });
+  if(!items.length)frag.append(el('p','',root.dataset.calendarMode==='without-flyers'?'More dates will be announced soon.':'New dates are coming soon. Explore our weekly nights below.'));
   root.replaceChildren(frag);
  }
 
@@ -98,7 +96,7 @@
  const calendars=[...document.querySelectorAll('[data-event-calendar]')];
  function render(){
   if(!sched)return;
-  const snap=S.snapshot(sched,Date.now(),28);
+  const snap=S.snapshot(sched,Date.now(),1);
   players.forEach(p=>p.update(snap));calendars.forEach(c=>renderCalendar(c,snap));
   schedule(snap);
  }

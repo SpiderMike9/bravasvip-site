@@ -7,7 +7,5 @@
 @media(max-width:900px){.flyer-stage .event-feature{gap:28px;grid-template-columns:minmax(200px,280px) minmax(0,1fr)}}
 @media(max-width:760px){.flyer-player-top{padding:18px 20px 0;gap:8px}.flyer-player-top .eyebrow,.player-status{font-size:9px;letter-spacing:.08em}.flyer-stage .event-feature{grid-template-columns:1fr;padding:20px;gap:20px}.flyer-stage .flyer{max-width:330px;margin:0 auto}.flyer-stage .feature-copy{padding:0 3px 6px}.flyer-stage .feature-copy h3{font-size:42px;line-height:1.06;margin:12px 0 16px}.flyer-controls{padding:14px 20px;gap:8px}.flyer-dots{gap:0}.flyer-controls .flyer-dot{width:38px;min-width:38px}.flyer-stage .feature-copy .eyebrow{font-size:10px}.calendar-flyer-link{display:block;width:max-content;margin-left:0;margin-top:12px}}
 @media(prefers-reduced-motion:reduce){.flyer-slide{animation:none}}
-/* Daily schedule: status labels, today highlight, closed days, text-only feature. */
-.calendar-event .calendar-status{margin:0 0 6px;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8a6a4a}.calendar-event .calendar-status.is-live{color:#80532b}.calendar-event .calendar-status.is-pending{color:#796857}.calendar-event .calendar-status.is-closed{color:#8b7f84}
-.calendar-event.is-today{border-top:2px solid #bda077}.events-section .calendar-event .calendar-status{color:#dac39f}.events-section .calendar-event .calendar-status.is-closed{color:#b9a9ad}.calendar-event.is-closed h3{opacity:.7}
+/* Text-only featured event when a flyer image is unavailable. */
 .flyer-stage .event-feature.flyer-text-only{grid-template-columns:1fr}
