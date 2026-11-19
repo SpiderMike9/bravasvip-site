@@ -138,6 +138,41 @@
       ],
       "reserve": "https://tally.so/r/RWdAv4?date=2026-11-17",
       "id": "founders-day-2026-11-17"
+    },
+    {
+      "src": "/assets/flyers/throwback-2026-11-19.jpg",
+      "alt": "Bravas presents Throwback Thursday's with DJ Teebatts, 8 to 12. 113 Goldsboro St, Wilson NC 27893. Overly Loaded food truck will be on site.",
+      "id": "throwback-2026-11-19",
+      "date": "2026-11-19",
+      "startsAt": "2026-11-19T20:00:00-05:00",
+      "endsAt": "2026-11-20T00:00:00-05:00",
+      "time": "8 PM–12 AM",
+      "title": "Throwback Thursday's with DJ Teebatts",
+      "pill": "Throwback Thursday's · DJ Teebatts · 8 PM–12 AM",
+      "lead": "Throwback Thursday's with DJ Teebatts. Overly Loaded food truck will be on site.",
+      "rows": [
+        [
+          "Time",
+          "8:00 PM – 12:00 AM"
+        ],
+        [
+          "DJ",
+          "DJ Teebatts"
+        ],
+        [
+          "Food",
+          "Overly Loaded food truck on site"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ],
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-19"
     }
   ]
 }
