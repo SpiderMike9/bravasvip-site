@@ -1,0 +1,19 @@
+name: Validate event calendar
+on:
+  push:
+    paths: ['assets/flyers/**', 'assets/bravas-schedule.js', 'scripts/validate-events.js', 'tests/**']
+  pull_request:
+    paths: ['assets/flyers/**', 'assets/bravas-schedule.js', 'scripts/validate-events.js', 'tests/**']
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check flyers.json (dates, times, duplicates, Tuesdays, flyer files)
+        run: node scripts/validate-events.js
+      - name: Schedule logic tests
+        run: node --test tests/schedule.test.js

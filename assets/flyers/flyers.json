@@ -1,5 +1,132 @@
 {
-  "_help": "Add each event once here. Flyer events need a local src image, title, date, startsAt, endsAt, time, lead, alt and reserve. Both the player and calendar update from this list; endsAt must include the America/New_York UTC offset (-05:00 winter, -04:00 summer). Events without src appear only in the calendar.",
+  "_help": "Weekly flyers publish automatically in America/New_York time; no daily uploads. To replace one day, add an entry to \"flyers\" with: date (YYYY-MM-DD, Eastern), title, src (/assets/flyers/your-file.webp), and optional publishAt (24-hour HH:MM, defaults to settings), time (event hours), lead (description), reserve (https link). To close one date add {\"date\": \"YYYY-MM-DD\", \"closed\": true}. Tuesdays are closed unless the entry has \"open\": true. One entry per date. See /assets/flyers/README.md.",
+  "settings": {
+    "defaultPublishTime": "09:00",
+    "publishTimes": {}
+  },
+  "weekly": {
+    "monday": {
+      "title": "Members Monday",
+      "src": "/assets/flyers/weekly/members-monday.webp",
+      "alt": "BRAVAS Members Monday flyer: a cognac leather booth lit by a brass lamp. Private social lounge, bravasvip.com.",
+      "time": "3 PM–12 AM",
+      "lead": "Free entry for members all night.",
+      "rows": [
+        [
+          "Open",
+          "3 PM – 12 AM"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ]
+    },
+    "tuesday": {
+      "closed": true
+    },
+    "wednesday": {
+      "title": "Spoken Word Wednesday",
+      "src": "/assets/flyers/weekly/spoken-word-wednesday.webp",
+      "alt": "BRAVAS Spoken Word Wednesday flyer: a vintage microphone under a velvet spotlight. Private social lounge, bravasvip.com.",
+      "time": "Shows 7 PM & 10 PM",
+      "lead": "Poets, storytellers and lyricists take the mic.",
+      "rows": [
+        [
+          "Early show",
+          "7:00 – 9:30 PM"
+        ],
+        [
+          "Late show",
+          "10:00 PM – 12:00 AM"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ]
+    },
+    "thursday": {
+      "title": "Throwback Thursday",
+      "src": "/assets/flyers/weekly/throwback-thursday.webp",
+      "alt": "BRAVAS Throwback Thursday flyer: a vintage turntable and vinyl records in warm light. Private social lounge, bravasvip.com.",
+      "time": "Shows 7 PM & 10 PM",
+      "lead": "The classics, live. Send the DJ your song.",
+      "rows": [
+        [
+          "Early show",
+          "7:00 – 9:30 PM"
+        ],
+        [
+          "Late show",
+          "10:00 PM – 12:00 AM"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ]
+    },
+    "friday": {
+      "title": "Feel Good Friday",
+      "src": "/assets/flyers/weekly/feel-good-friday.webp",
+      "alt": "BRAVAS Feel Good Friday flyer. Private social lounge, bravasvip.com.",
+      "time": "3 PM–12 AM",
+      "lead": "Good music, good people, good drinks. Start the weekend right.",
+      "rows": [
+        [
+          "Open",
+          "3 PM – 12 AM"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ]
+    },
+    "saturday": {
+      "title": "V.I.P. Saturday",
+      "src": "/assets/flyers/weekly/vip-saturday.webp",
+      "alt": "BRAVAS V.I.P. Saturday flyer: a velvet booth, DJ booth and spotlight. Private social lounge, bravasvip.com.",
+      "time": "3 PM–1 AM",
+      "lead": "Two showcases, one night.",
+      "rows": [
+        [
+          "Open",
+          "3 PM – 1 AM"
+        ],
+        [
+          "1st Showcase",
+          "7:00 – 9:00 PM"
+        ],
+        [
+          "2nd Showcase",
+          "10:00 PM – 12:00 AM"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ]
+    },
+    "sunday": {
+      "title": "Sunday Funday Brunch",
+      "src": "/assets/flyers/weekly/sunday-funday-brunch.webp",
+      "alt": "BRAVAS Sunday Funday Brunch flyer: a leather sofa and vinyl record in afternoon sun. Private social lounge, bravasvip.com.",
+      "time": "3 PM–12 AM",
+      "lead": "Day party inside and out back, with food trucks outside.",
+      "rows": [
+        [
+          "Open",
+          "3 PM – 12 AM"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ]
+    }
+  },
   "flyers": [
     {
       "src": "/assets/flyers/vip-saturday-2026-11-14.webp",
@@ -137,7 +264,8 @@
         ]
       ],
       "reserve": "https://tally.so/r/RWdAv4?date=2026-11-17",
-      "id": "founders-day-2026-11-17"
+      "id": "founders-day-2026-11-17",
+      "open": true
     },
     {
       "src": "/assets/flyers/throwback-2026-11-19.jpg",
