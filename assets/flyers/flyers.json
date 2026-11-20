@@ -301,6 +301,42 @@
         ]
       ],
       "reserve": "https://tally.so/r/RWdAv4?date=2026-11-19"
+    },
+    {
+      "src": "/assets/flyers/road-to-playoffs-2026-11-20.webp",
+      "alt": "BRAVAS Bar & Lounge presents Road to the Playoffs, the official after party. Hunt vs Fike cross town rivalry. Friday the 20th, 9 PM to 1 AM, 113-A Goldsboro St, Wilson NC 27893. Music by DJ Ike. Overly Loaded food truck on the premises.",
+      "id": "road-to-playoffs-2026-11-20",
+      "date": "2026-11-20",
+      "startsAt": "2026-11-20T21:00:00-05:00",
+      "endsAt": "2026-11-21T01:00:00-05:00",
+      "time": "9 PM–1 AM",
+      "publishAt": "00:00",
+      "title": "Road to the Playoffs Official After Party: Hunt vs Fike",
+      "pill": "Road to the Playoffs · Hunt vs Fike · 9 PM–1 AM",
+      "lead": "The official after party for the Hunt vs Fike cross town rivalry. Music by DJ Ike. Overly Loaded food truck on the premises.",
+      "rows": [
+        [
+          "Time",
+          "9:00 PM – 1:00 AM"
+        ],
+        [
+          "Music",
+          "DJ Ike"
+        ],
+        [
+          "Food",
+          "Overly Loaded food truck on the premises"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ],
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-20"
     }
   ]
 }
