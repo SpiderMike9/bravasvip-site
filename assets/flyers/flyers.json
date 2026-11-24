@@ -337,6 +337,46 @@
         ]
       ],
       "reserve": "https://tally.so/r/RWdAv4?date=2026-11-20"
+    },
+    {
+      "src": "/assets/flyers/fish-fry-2026-11-25.webp",
+      "alt": "BRAVAS Bar & Lounge presents the BRAVAS Fish Fry, Wednesday November 25. Each member gets a free fish plate. Celebrating Fat Daddy's birthday. Music by DJ Mike Wells. Overly Loaded food truck on the fish. 8 to 12:00. 113 Goldsboro St, Wilson NC.",
+      "id": "fish-fry-2026-11-25",
+      "date": "2026-11-25",
+      "startsAt": "2026-11-25T20:00:00-05:00",
+      "endsAt": "2026-11-26T00:00:00-05:00",
+      "time": "8 PM–12 AM",
+      "publishAt": "00:00",
+      "title": "BRAVAS Fish Fry: Celebrating Fat Daddy's Birthday",
+      "pill": "Fish Fry · DJ Mike Wells · 8 PM–12 AM",
+      "lead": "Each member gets a free fish plate. Celebrating Fat Daddy's birthday with music by DJ Mike Wells. Overly Loaded food truck on the fish.",
+      "rows": [
+        [
+          "Time",
+          "8:00 PM – 12:00 AM"
+        ],
+        [
+          "Music",
+          "DJ Mike Wells"
+        ],
+        [
+          "Members",
+          "Each member gets a free fish plate"
+        ],
+        [
+          "Food",
+          "Overly Loaded food truck on the fish"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ],
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-25"
     }
   ]
 }
