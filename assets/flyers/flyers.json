@@ -377,6 +377,146 @@
         ]
       ],
       "reserve": "https://tally.so/r/RWdAv4?date=2026-11-25"
+    },
+    {
+      "src": "/assets/flyers/thanksgiving-night-2026-11-26.webp",
+      "alt": "BRAVAS Bar & Lounge Thanksgiving Night, Thursday November 26, DJ TBA, 9 PM to 1:00 AM. 113 Goldsboro St, Wilson NC.",
+      "id": "thanksgiving-night-2026-11-26",
+      "date": "2026-11-26",
+      "startsAt": "2026-11-26T21:00:00-05:00",
+      "endsAt": "2026-11-27T01:00:00-05:00",
+      "time": "9 PM–1 AM",
+      "publishAt": "00:00",
+      "title": "Thanksgiving Night",
+      "pill": "Thanksgiving Night · DJ TBA · 9 PM–1 AM",
+      "lead": "Celebrate Thanksgiving night at BRAVAS. Doors open 9 PM, music until 1 AM.",
+      "rows": [
+        [
+          "Time",
+          "9:00 PM – 1:00 AM"
+        ],
+        [
+          "Music",
+          "DJ TBA"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ],
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-26"
+    },
+    {
+      "src": "/assets/flyers/black-friday-2026-11-27.webp",
+      "alt": "BRAVAS Bar & Lounge Black Friday Edition, Friday November 27, DJ Clyntel, 7 PM to 1:00 AM. Fatboi Wingz food truck. 113 Goldsboro St, Wilson NC.",
+      "id": "black-friday-2026-11-27",
+      "date": "2026-11-27",
+      "startsAt": "2026-11-27T19:00:00-05:00",
+      "endsAt": "2026-11-28T01:00:00-05:00",
+      "time": "7 PM–1 AM",
+      "publishAt": "00:00",
+      "title": "Black Friday Edition with DJ Clyntel",
+      "pill": "Black Friday Edition · DJ Clyntel · 7 PM–1 AM",
+      "lead": "Black Friday Edition at BRAVAS with DJ Clyntel. Fatboi Wingz food truck on site.",
+      "rows": [
+        [
+          "Time",
+          "7:00 PM – 1:00 AM"
+        ],
+        [
+          "Music",
+          "DJ Clyntel"
+        ],
+        [
+          "Food",
+          "Fatboi Wingz food truck"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ],
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-27"
+    },
+    {
+      "src": "/assets/flyers/vip-saturday-2026-11-28.webp",
+      "alt": "BRAVAS Bar & Lounge V.I.P. Saturdays, Saturday November 28, DJ Teebatts, 8 PM to 1:00 AM. Overly Loaded food truck. 113 Goldsboro St, Wilson NC.",
+      "id": "vip-saturday-2026-11-28",
+      "date": "2026-11-28",
+      "startsAt": "2026-11-28T20:00:00-05:00",
+      "endsAt": "2026-11-29T01:00:00-05:00",
+      "time": "8 PM–1 AM",
+      "publishAt": "00:00",
+      "title": "V.I.P. Saturday featuring DJ Teebatts",
+      "pill": "V.I.P. Saturday · DJ Teebatts · 8 PM–1 AM",
+      "lead": "V.I.P. Saturday at BRAVAS with DJ Teebatts. Overly Loaded food truck on site.",
+      "rows": [
+        [
+          "Time",
+          "8:00 PM – 1:00 AM"
+        ],
+        [
+          "Music",
+          "DJ Teebatts"
+        ],
+        [
+          "Food",
+          "Overly Loaded food truck"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ],
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-28"
+    },
+    {
+      "src": "/assets/flyers/sunday-funday-2026-11-29.webp",
+      "alt": "BRAVAS Bar & Lounge Sunday Funday, Sunday November 29, DJ TBA, 2:00 PM to 7:00 PM. Overly Loaded food truck. 113 Goldsboro St, Wilson NC.",
+      "id": "sunday-funday-2026-11-29",
+      "date": "2026-11-29",
+      "startsAt": "2026-11-29T14:00:00-05:00",
+      "endsAt": "2026-11-29T19:00:00-05:00",
+      "time": "2 PM–7 PM",
+      "publishAt": "00:00",
+      "title": "Sunday Funday",
+      "pill": "Sunday Funday · DJ TBA · 2 PM–7 PM",
+      "lead": "Sunday Funday at BRAVAS: eat, drink, vibe. Overly Loaded food truck on site.",
+      "rows": [
+        [
+          "Time",
+          "2:00 PM – 7:00 PM"
+        ],
+        [
+          "Music",
+          "DJ TBA"
+        ],
+        [
+          "Food",
+          "Overly Loaded food truck"
+        ],
+        [
+          "Where",
+          "113-A Goldsboro St., Wilson"
+        ],
+        [
+          "Entry",
+          "Members free · Guest cover at the door"
+        ]
+      ],
+      "reserve": "https://tally.so/r/RWdAv4?date=2026-11-29"
     }
   ]
 }
